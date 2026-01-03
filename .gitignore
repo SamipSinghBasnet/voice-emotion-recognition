@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+
+# Raw dataset (too large for GitHub)
+data/raw/
+
+# OS junk
+.DS_Store
+Thumbs.db
