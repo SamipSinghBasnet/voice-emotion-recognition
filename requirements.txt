@@ -9,5 +9,6 @@ soundfile
 tqdm
 joblib
 
-torch==2.5.1+cpu
+torch==2.7.1+cpu
 transformers
+

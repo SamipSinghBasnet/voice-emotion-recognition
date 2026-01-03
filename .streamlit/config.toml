@@ -1,5 +1,2 @@
 [server]
 headless = true
-
-[runner]
-pythonPath = "."
