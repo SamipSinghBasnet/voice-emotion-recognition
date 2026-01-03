@@ -1,9 +1,14 @@
+import os, sys
+sys.path.insert(0, os.path.abspath("."))
+
+
 import streamlit as st
 import numpy as np
 import soundfile as sf
 import librosa
 import io
 from collections import Counter, deque
+
 from src.infer.predict import EmotionPredictor
 
 st.set_page_config(page_title="Voice Emotion Recognition", layout="centered")
