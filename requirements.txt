@@ -8,5 +8,6 @@ librosa
 soundfile
 tqdm
 joblib
-torch==2.2.2
-transformers==4.43.3
+
+torch==2.5.1+cpu
+transformers
